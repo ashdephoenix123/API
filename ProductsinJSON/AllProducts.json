@@ -1,0 +1,50 @@
+[
+    {
+        "name": "iPhone",
+        "price": 60000,
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "samsung s21 ultra",
+        "price": 80000,
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "samsung s9 plus",
+        "price": 27000,
+        "featured": false,
+        "company": "samsung"
+    },
+    {
+        "name": "mi laptop",
+        "price": 61000,
+        "featured": false,
+        "company": "mi"
+    },
+    {
+        "name": "mac pc",
+        "price": 120000,
+        "featured": false,
+        "company": "apple"
+    },
+    {
+        "name": "mac laptop",
+        "price": 90000,
+        "featured": false,
+        "company": "apple"
+    },
+    {
+        "name": "dell i5 laptop",
+        "price": 60000,
+        "featured": false,
+        "company": "dell"
+    },
+    {
+        "name": "mi mouse",
+        "price": 6000,
+        "featured": false,
+        "company": "mi"
+    }
+]
