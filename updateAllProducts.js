@@ -6,6 +6,7 @@ const AllProduct = require('./db/schema')
 
 const updateDataInDb = async ()=> {
     try{
+        await AllProduct.deleteMany()
         await AllProduct.create(allProductsJSON)
         console.log('done')
     } catch(err){

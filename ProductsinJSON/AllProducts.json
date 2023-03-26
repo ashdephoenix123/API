@@ -46,5 +46,53 @@
         "price": 6000,
         "featured": false,
         "company": "mi"
+    },
+    {
+        "name": "nokia 3310",
+        "price": 1000,
+        "featured": true,
+        "company": "nokia"
+    },
+    {
+        "name": "oneplus 8t",
+        "price": 51000,
+        "featured": true,
+        "company": "oneplus"
+    },
+    {
+        "name": "lenovo thinkpad",
+        "price": 30000,
+        "featured": false,
+        "company": "lenovo"
+    },
+    {
+        "name": "mi phone",
+        "price": 61000,
+        "featured": false,
+        "company": "mi"
+    },
+    {
+        "name": "samsung s8",
+        "price": 20000,
+        "featured": false,
+        "company": "samsung"
+    },
+    {
+        "name": "mac mini",
+        "price": 90000,
+        "featured": false,
+        "company": "apple"
+    },
+    {
+        "name": "dell i3 laptop",
+        "price": 30000,
+        "featured": false,
+        "company": "dell"
+    },
+    {
+        "name": "pixel 5",
+        "price": 6000,
+        "featured": false,
+        "company": "google"
     }
 ]
