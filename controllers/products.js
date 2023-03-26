@@ -27,7 +27,7 @@ const allProducts = async (req, res) => {
         }
 
         let page = Number(req.query.page) || 1;
-        let limit = Number(req.query.limit) || 2;
+        let limit = Number(req.query.limit) || 4;
 
         let skip = (page - 1) * limit;
 
