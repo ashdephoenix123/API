@@ -32,7 +32,7 @@ const allProducts = async (req, res) => {
         let skip = (page - 1) * limit;
 
         const allProducts = await apiData.skip(skip).limit(limit);
-        res.status(200).json({ allProducts, limit: allProducts.length })
+        res.status(200).json({ allProducts, limit: allProducts.length, page })
 
     } catch (error) {
         res.status(400).json({ message: error })
