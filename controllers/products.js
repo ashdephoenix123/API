@@ -13,7 +13,7 @@ const allProducts = async (req, res) => {
         } else if (featured) {
             queryObj.featured = featured
         } else if (_id) {
-            queryObj._id = _id
+            queryObj._id = _id;
         }
 
         let apiData = AllProduct.find(queryObj);
